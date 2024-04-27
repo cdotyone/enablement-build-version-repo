@@ -1,0 +1,21 @@
+{
+  "name": "enablement-build-version-repo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.mjs",
+  "bin": "./index.mjs",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdotyone/enablement-build-version-repo.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "test": "node ./run.js"
+  },
+  "keywords": [],
+  "author": "Chris Doty",
+  "license": "MIT"
+}
