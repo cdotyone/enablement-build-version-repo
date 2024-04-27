@@ -3,7 +3,7 @@ import path from 'path';
 import { readFile, writeFile, existsSync } from "fs";
 import { exec } from "child_process";
 
-import { Version } from "./repo-version/version.mjs";
+import { Version } from "version.mjs";
 
 async function updateVersion(projectFile, version, suffix) {
   var value = new Promise((resolve, reject) => {
